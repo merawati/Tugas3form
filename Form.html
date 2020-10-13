@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="konten">
+        <div class="konten-isi">
+            <h2>FORM ORDER</h2>
+            <p>Selamat berbelanja barang keperluan anda, jangan dulu berhenti sebelum uang anda habis. Happy shopping dear</p>
+            <h3>INFORMASI PRODUK</h3>
+            <div class="form">
+                <label for="url">URL</label>
+                <h4>Required</h4>
+                <input type="text1" name="url" id="" placeholder="https://www.shopee.com/Kecantikan/etalase/lipcream">
+            </div>
+            <div class="form">
+                <label for="nama">NAMA PRODUK</label>
+                <h4>Required</h4>
+                <input type="text1" name="nama" id="" placeholder="Masukan Nama Produk">
+            </div>
+            <div class="form">
+                <label for="kategori">KATEGORI</label>
+                <select name="kategori" id="">
+                    <option value="pilih">Pilih</option>
+                    <option value="pilih">Fashion</option>
+                    <option value="pilih">Elektronik</option>
+                    <option value="pilih">Kecantikan</option>
+                    <option value="pilih">Aksesoris</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="harga">HARGA / PCS</label>
+                <h4 style="float: left;">Required</h4>
+                <h4>Required</h4>
+                <input type="text2" name="harga" id="" placeholder="Tulis Harga Produk">
+                <select name="harga" id="">
+                    <option value="pilih">USD-$</option>
+                    <option value="pilih">IDR-Rp</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="berat">BERAT PRODUK / PCS</label>
+                <label for="berat">PANJANG ( P X L X T )</label><br>
+                <input type="text3" name="berat" id="" placeholder="Berat">
+                <select name="berat" id="">
+                    <option value="pilih">g</option>
+                    <option value="pilih">Kg</option>
+                </select>
+                <input type="text3" name="panjang" id="" placeholder="Panjang">
+                <input type="text3" name="lebar" id="" placeholder="Lebar">
+                <input type="text3" name="tinggi" id="" placeholder="Tinggi">
+                <select name="panjang" id="">
+                    <option value="pilih">cm</option>
+                    <option value="pilih">M</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="catatan">CATATAN</label>
+                <textarea name="catatan" id="" cols="30" rows="10" placeholder="Contoh : Warna Putih, XXL, XL, L"></textarea>
+            </div>
+            <div class="form">
+                <label for="berat">JUMLAH</label>
+                <h4>Required</h4>   
+                <input type="text4" name="jumlah" id="">
+            </div>
+            <div class="form">
+                <label for="negara">NEGARA</label> <br>
+                <select name="negara" id="">
+                    <option value="">Pilih</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="luar">Amerika</option>
+                    <option value= "negara"> Korea Selatan</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="upload">UPLOAD IMAGE</label><br>
+                <label for="maks">(MAKS 2,5MB)</label><br>
+                <div class="tambah">
+                    <label for="file-upload">
+                        <img src="images/Icon-plus.jpg" alt="">
+                    </label>
+                    <input type="file" name="" id="file-upload">
+                </div>
+                <h4>Required</h4>
+            </div>
+            <div class="button">
+                <input type="submit" value="TAMBAH KE KERANJANG">
+                <input type="reset" value="CANCEL">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
